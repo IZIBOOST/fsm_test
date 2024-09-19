@@ -38,7 +38,7 @@ async def process_start_command(message: Message):
     await message.answer(
         text='Этот бот демонстрирует работу FSM\n\n'
              'Чтобы перейти к заполнению анкеты - '
-             'отправьте команду /fillform'
+             'отправьте команду /fillform (Хеллоу)'
     )
 
 
